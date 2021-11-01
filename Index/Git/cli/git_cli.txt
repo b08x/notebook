@@ -1,0 +1,39 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-12-03T05:23:21-05:00
+
+====== gitea cli ======
+@git
+
+```
+echo 'PROG=tea _CLI_ZSH_AUTOCOMPLETE_HACK=1 source /home/b08x/.config/tea/autocomplete.zsh' >> ~/.zshrc && source ~/.zshrc
+
+tea autocomplete zsh --install
+
+tea login add --url http://git.syncopatedstudios.net:3000 --token 8aacd8cc828025e7f552af5be8fa63b385a0d101 -i
+```
+
+% tea issues --repo soundbot                                                                                                                         21-09-11 - 10:13:17
++-------+------------+-------+----------------+-----------+--------+
+| INDEX |   TITLE    | STATE |     AUTHOR     | MILESTONE | LABELS |
++-------+------------+-------+----------------+-----------+--------+
+|     1 | modularize | open  | Robert Pannick |           |        |
++-------+------------+-------+----------------+-----------+--------+
+
+
+% tea issues --repo 1 
+opens md version of issue
+
+
+% tea issue --repo soundbot create                                                                                                              :( 1 21-09-11 - 10:15:27
+Remote repository required: Specify ID via --repo or execute from a local git repo.
+
+cd Workspace/soundbot
+tea issue create
+
+% tea open 1
+opens issue #1 in webbrowser
+
+
+
+

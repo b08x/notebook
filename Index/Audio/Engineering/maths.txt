@@ -1,0 +1,31 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-23T07:21:10-04:00
+
+====== maths ======
+Created Thursday 23 September 2021
+
+https://stackoverflow.com/a/929104
+
+{{{code: lang="ruby" linenumbers="False"
+oldrange = (0 - -100)
+=> 100
+
+
+old_value = -47
+
+old_min = -100
+old_max = 0.0
+
+new_min = 0
+new_max = 1
+
+new_value = ( (old_value - old_min) / (old_max - old_min) ) * (new_max - new_min) + 0
+=> 0.53
+}}}
+ 
+
+to convert a peak decibel level as reported by Sox, use the above formulaic method ^
+
+
+

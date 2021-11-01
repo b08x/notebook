@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-23T09:19:44-04:00
+
+====== sse2 ======
+
+make sure this is a flag that is set. optimize. 
+
+//~~Thursday 23 September 2021~~//

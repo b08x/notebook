@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-07-31T06:04:41-04:00
+
+====== emacs ======
+Created Saturday 31 July 2021
+
+* start emacs and connect to sonic
+* then on host run;
+
+
+socat -T1 UDP-LISTEN:4558,bind=192.168.1.123 UDP:localhost:4558
+
+then on client run;
+
+
+oscsend 192.168.1.123 4558 /something s 'hello'

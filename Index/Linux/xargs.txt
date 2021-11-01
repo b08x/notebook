@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-26T02:18:24-04:00
+
+====== xargs ======
+Created Sunday 26 September 2021
+
+-0 If there are blank spaces or characters (including newlines) many commands will not work. This option take cares of file names with blank space.
+-I Replace occurrences of replace-str in the initial-arguments with names read from standard input. Also, unquoted blanks do not terminate input items; instead the separator is the newline character.

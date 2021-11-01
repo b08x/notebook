@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-29T23:03:32-04:00
+
+====== tk ======
+Created Wednesday 29 September 2021
+
+{{{code: lang="ruby" linenumbers="False"
+% sudo gem install --no-user-install tk -- \
+  --with-tcl-include=/usr/include/tcl8.6 \
+  --with-tk-include=/usr/include/tk8.6 \
+  --with-tcllib=tcl8.6 \
+  --with-tklib=tk8.6 \
+  --with-X11-dir=/usr/lib/X11
+}}}

@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-27T05:35:54-04:00
+
+====== pYIN ======
+
+The pYIN method is designed to reliably extract the fundamental frequency of audio recordings of a monophonic, harmonic instrument such as the human voice. Being based on YIN means that pYIN exploits the periodicity of the signal. In some circumstances it will not be reliable. Such circumstances occur, e.g.
+
+... if the source audio is not monophonic, e.g. a singer with accompanying instruments,
+... if the recording has reverb/echo (this essentially makes it polyphonic)
+... if in a stringed instrument such as the cello one string keeps ringing while the melody turns to a different pitch.
+

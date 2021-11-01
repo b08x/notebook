@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-09-29T22:46:54-04:00
+
+====== Index ======
+
+creating a page with a ":" (colon) in the title, 
+will create subpages for everything after the colon (":")
+

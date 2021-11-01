@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-11T13:49:53-04:00
+
+====== phase correcting ======
+Created Saturday 11 September 2021
+
+https://forum.juce.com/t/how-to-rotate-the-phase-of-an-audio-signal/39072/10
+
+
+https://wiki.slimdevices.com/index.php/Brutefir_Filter.html
+
+http://drc-fir.sourceforge.net/
+
+https://lsp-plug.in/?page=manuals&section=para_equalizer_x16_stereo

@@ -1,0 +1,23 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-07-31T01:49:31-04:00
+
+====== DNS ======
+Created Saturday 31 July 2021
+
+@systemd-resolved
+
+"As of systemd 232 (released in 2017) you can edit /etc/systemd/resolved.conf and add this line: 
+DNSStubListener=no. This will switch off binding to port 53."
+
+
+
+
+https://blog.ivansmirnov.name/set-up-pihole-using-docker-macvlan-network/
+
+
+
+dhcp-option=6,192.168.1.121
+
+v3.3-release_fedora
+

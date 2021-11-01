@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-27T03:56:47-04:00
+
+====== Midi ======
+
+=== velocity ranges to classcial notation ===
+0-31 pp
+32-42 p
+43-64 mf
+65-80 f
+81-127 ff

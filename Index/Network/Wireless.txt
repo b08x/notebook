@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-27T04:16:04-04:00
+
+====== Wireless ======
+Created Monday 27 September 2021
+
+===== network screwiness with lapbot =====
+this might account for the occasional network drops...
+ran `"echo 0 > /proc/sys/kernel/hung_task_timeout_secs"`
+we'll see if we notice any more network drops

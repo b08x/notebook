@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-27T03:52:29-04:00
+
+====== isolating peaks ======
+Created Monday 27 September 2021
+
+Here is a vocal recording with a second of loud noise in the middle...I'm not sure if it's "clipping" (from this pic) although
+from the sound it seems like it...
+
+
+{{~/Notes/Home/notes/isolating_peaks/pasted_image.png}}
+
+
+Then normalizing to -23dbfs
+
+{{~/Notes/Home/notes/isolating_peaks/pasted_image001.png}}
+

@@ -1,0 +1,28 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-21T17:55:56-04:00
+
+====== user interface ======
+"user interface" that is to say, the interface a user would interact with
+
+===== ydotool =====
+
+{{{code: lang="ruby" linenumbers="False"
+#> ydotool key ctrl+alt+f1 , sleep 2000 , type 'Hey guys. This is Austin.'
+}}}
+
+
+
+At the moment I can't think of a reason why I would need this. Having said that, it seems like it would be useful for something...
+
+
+===== launch a particular application with a specific GTK theme =====
+
+{{{code: lang="ruby" linenumbers="False"
+Exec=env GTK_THEME=Yaru-dark /usr/bin/zim %F
+}}}
+
+
+===== borderless window theme =====
+
+https://www.gnome-look.org/p/1016214/

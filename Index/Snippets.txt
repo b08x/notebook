@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-27T03:47:16-04:00
+
+====== Snippets ======
+Created Monday 27 September 2021
+
+=== creating usb iso with dd ===
+for optimal imaging of a drive with an iso:
+check the I/O size with fdisk and use that as the byte size
+{{{code: lang="sh" linenumbers="False"
+sudo dd if=path_to.iso of=/dev/drive bs=$ status=progress && sync
+
+}}}
+
+
+{{{code: lang="sh" linenumbers="False"
+for vid in *.mkv; do ffmpeg -i "$vid" -vn -acodec copy "${vid%.mkv}.wav"; done
+}}}
+
+{{{code: lang="sh" linenumbers="False"
+for flac in *.flac; do bs1770gain --codec=flac --suffix=flac "$flac" --overwrite
+}}}
+
+{{{code: lang="sh" linenumbers="False"
+unzip -p NOOBS_v3_2_0.zip | sudo dd of=/dev/mmcblk0 bs=4M status=progress conv=fsync
+}}}

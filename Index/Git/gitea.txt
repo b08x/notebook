@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-02T10:36:48-04:00
+
+====== gitea ======
+Created Thursday 02 September 2021
+
+sudo chcon -R unconfined_u:object_r:user_home_t:s0 [[/srv/storage01/git/.ssh]]
+
+
+on bender:
+vim /app/gitea/gitea
+
+#!/bin/sh
+ssh -p 2222 -o StrictHostKeyChecking=no git@127.0.0.1 \
+"SSH_ORIGINAL_COMMAND=\"$SSH_ORIGINAL_COMMAND\" $0 $@"
+
+====== backup ======
+docker exec -u git -it -w --tempdir $(docker ps -qf "name=gitea") bash -c '/app/gitea/gitea dump -c /data/gitea/conf/app.ini'
+
+% docker exec -u git -it -w --tempdir $(docker ps -qf "name=gitea") bash -c '/app/gitea/gitea dump -c /data/gitea/conf/app.ini' 
+OCI runtime exec failed: exec failed: Cwd must be an absolute path: unknown

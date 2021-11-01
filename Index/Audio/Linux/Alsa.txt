@@ -1,0 +1,43 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-07-31T13:49:41-04:00
+
+====== Alsa ======
+Created Saturday 31 July 2021
+
+===== alsactl =====
+https://unix.stackexchange.com/a/317752
+
+sudo alsactl store
+
+
+===== rawmidi =====
+alsa-rawmidi/api.rb:407: [BUG] Segmentation fault 
+
+
+--- ./api.rb	2019-02-15 16:50:37.218105977 +0900
++++ /tmp/api.rb	2019-02-15 16:50:30.766584839 +0900
+@@ -330,9 +330,9 @@
+	   # @param [Proc] block
+	   # @return [Integer]
+	   def open(id, &block)
+-        handle_pointer = FFI::MemoryPointer.new(FFI.type_size(:int))
++        handle_pointer = FFI::MemoryPointer.new(FFI.type_size(:ulong))
+		 yield(handle_pointer)
+-        handle_pointer.read_int
++        handle_pointer.read_ulong
+	   end
+ 
+	 end
+@@ -424,9 +424,9 @@
+	   # @param [Integer] soundcard_id
+	   # @return [Integer]
+	   def get_handle(soundcard_id)
+-        handle_pointer = FFI::MemoryPointer.new(FFI.type_size(:int))
++        handle_pointer = FFI::MemoryPointer.new(FFI.type_size(:ulong))
+		 API.snd_ctl_open(handle_pointer, get_name(soundcard_id), 0)
+-        handle_pointer.read_int
++        handle_pointer.read_ulong
+	   end
+ 
+	 end

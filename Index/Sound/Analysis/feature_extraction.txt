@@ -1,0 +1,55 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-27T05:35:40-04:00
+
+====== feature extraction ======
+
+
+Broadly speaking, it filters out the very low-frequency temporal components (below 1Hz) which are often due to a changing auditory environment or microphone. High frequency temporal components, above 13Hz, are also removed since they represent changes that are faster than the speech articulators can move
+
+===== spectral centroid =====
+High values indicates moments in the music where most of the sound energy is on the high-frequency register, whereas low values indicates moments where most of the sound energy is on the low-frequency register.
+
+
+===== silvet notes =====
+
+| start | end | frequency | velocity | note |
+|:------|:----|:----------|:---------|:-----|
+|       |     |           |          |      |
+|       |     |           |          |      |
+|       |     |           |          |      |
+|       |     |           |          |      |
+|       |     |           |          |      |
+|       |     |           |          |      |
+
+
+an example of being able to place start and ends with a measure/beat an note length
+| start | end   | instrument | note | measture | beat | value       |
+|:------|:------|:-----------|:-----|:---------|:-----|:------------|
+| 45.29 | 45.49 | Violin     | G5   | 21       | 3    | Eigth       |
+| 48.99 | 50.13 | Cello      | A#3  | 24       | 2    | Dotted Half |
+
+
+
+===== window size =====
+Windows must be long enough to capture relevant information, but not so long that they lose temporal resolution;
+
+We therefore focus on two window sizes: 2048 samples, which captures the local content of the signal, and 16,384 samples,
+which is sufficient to capture almost all relevant context
+
+512 step size
+
+Try an odd number windows size. f.e: WINDOWSIZE=1025 
+
+M=2047, N=2048,
+
+==== try slowing down a sample that contains a lot of fast information ====
+
+Turetsky & Ellis (2003) propose cutoffs in the 2.5kHz range
+The fundamental frequencies of many notes in MusicNet are higher than the 50 × 22.5Hz ≈ 1kHz
+cutoff. Nevertheless, we find that all notes align well using only the low-frequency information.
+
+
+22,050Hz is theNyquist frequency of a signal sampled at 44.1kHz
+
+

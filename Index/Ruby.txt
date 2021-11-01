@@ -1,0 +1,106 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-27T04:14:34-04:00
+
+====== Ruby ======
+
+===== stuff fer soundbot =====
+https://github.com/pry/pry-stack_explorer
+
+https://github.com/ssoroka/ansi
+
+
+ruby-sixarm-ruby-unaccent/stable 1.2.0-2 all
+  replaces a string's accented characters with unaccented characters
+
+ruby-terminal-table/stable 2.0.0-1 all
+  simple, feature rich ASCII table generation library
+
+
+
+https://github.com/keithrbennett/trick_bag
+
+{{{code: lang="erlang" linenumbers="False"
+Formatters.duration_to_s formats number of seconds to string like 11 d, 13 h, 46 m, 40 s
+
+Formatters.timestamp #returns a timestamp string suitable for use in file names in the year-month-day-hour-minute-second form, e.g. 2014-03-24_15-25-57
+
+Formatters.dos2unix[!] #formats a string with Unix line endings
+Formatters.array_diff #returns a nicely formatted string output of the difference between 2 arrays
+
+TextModeStatusUpdater #provides an updatable and customizable status/information line in a terminal, typically used to display progress.
+
+Tempfiles.file_containing #for the easy creation and deletion of a temp file populated with text, wrapped around the code block you provide.
+
+SshOutputReader #Runs an ssh command, collecting the stdout and stderr produced by it. Optionally a predicate can be specified that, when called with the instance of this class, returns true to close the channel or false to continue (for example, when a certain string appears in the command's output). There are instance methods to return the most recent and all accumulated text for both stdout and stderr, so the predicate can easily inspect the text.
+
+clone_hash_except # creates a copy of a hash except for the specified keys (this functionality is already included in Rails, but not in Ruby itself)
+}}}
+
+
+https://github.com/csvreader/csvreader/tree/master/csvreader
+# for parsing annotator output
+{{{code: lang="ruby" linenumbers="False"
+records = CsvHash.parse( txt2, headers: ["A","B","C"] )      ## or CsvHashReader.parse
+pp records
+
+
+}}}
+
+
+https://github.com/forgecrafted/finishing_moves
+"Ruby's strip method removes leading and trailing whitespace, but there's no method to strip other characters like dashes, underscores, or numbers. strip_all allows you to perform these kinds of cleanups without having to write any regular expressions.
+
+The lone argument is a string of the characters you want to remove. By default, strip_all will remove dashes - and underscores _."
+{{{code: lang="erlang" linenumbers="False"
+'___foo___'.strip_all
+# => 'foo'
+
+'---foo---'.strip_all
+# => 'foo'
+
+}}}
+
+
+https://github.com/forgecrafted/finishing_moves/wiki/String#stringmatch
+
+{{{code: lang="erlang" linenumbers="False"
+Ruby's match method is often used in boolean operations to determine the presence or absence of a given pattern within a string. That's why we found it odd that Ruby doesn't include a shortcut method to return a boolean result.
+
+match? operates exactly like match, and simply returns true or false based on the results of the lookup.
+
+'hello'.match?('he')
+# => true
+
+'hello'.match?('o')
+# => true
+
+}}}
+
+
+https://github.com/forgecrafted/finishing_moves/wiki/String#stringremove_whitespace
+
+{{{code: lang="ruby" linenumbers="False"
+'   a b c d     e'.remove_whitespace
+# => 'abcde'
+
+# Absolutely any string is valid
+'. $ ^ { [ ( " | " ) * + ?'.remove_whitespace
+# => '.$^{[("|")*+?'
+}}}
+
+
+https://github.com/forgecrafted/finishing_moves/wiki/Kernel#kernelcascade
+https://github.com/forgecrafted/finishing_moves/wiki/Numeric#numericsubtract_percent
+
+https://github.com/geemus/formatador
+{{{code: lang="ruby" linenumbers="False"
+display_table: takes an array of hashes. Each hash is a row, with the keys being the headers and values being the data. An optional second argument can specify which headers/columns to include and in what order they should appear.
+display_compact_table: Same as display_table, execpt that split lines are not drawn by default in the body of the table. If you need a split line, put a :split constant in the body array.
+redisplay_progressbar: takes the current and total values as its first two arguments and redisplays a progressbar (until current = total and then it display_lines). An optional third argument represents the start time and will add an elapsed time counter.
+}}}
+
+
+https://github.com/geemus/formatador
+
+awesome print

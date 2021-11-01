@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-27T03:42:19-04:00
+
+====== Monday 27 Sep 2021 ======
+
+@links @database 
+
+{{{code: lang="sh" linenumbers="False"
+sqlitebiter                                                                                                                                           0.34.1-2                      AUR 
+    Convert CSV, Excel, HTML, JSON, Jupyter Notebook, LDJSON, LTSV, Markdown, SSV, TSV, Google-Sheets to SQLite database file
+
+}}}
+
+

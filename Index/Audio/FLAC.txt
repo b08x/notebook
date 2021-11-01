@@ -1,0 +1,45 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-20T01:56:03-04:00
+
+====== FLAC ======
+Created Monday 20 September 2021
+
+http://dalvikplanet.blogspot.com/2018/05/how-to-add-both-front-cover-and-back.html
+
+
+metaflac --show-channels file.flac
+metaflac --list file.flac
+metaflac --list --block-type=PICTURE file.flac | grep -A8 -i metadata
+user@PC:music$ metaflac --list file.flac | grep -A 8 METADATA | grep -A 7 -B 1 PICTURE
+METADATA block #3
+  type: 6 (PICTURE)
+  is last: false
+  length: 192196
+  type: 3 (Cover (front))
+  MIME type: image/jpeg
+  description:
+  width: 380
+  height: 544
+--
+METADATA block #4
+  type: 6 (PICTURE)
+  is last: false
+  length: 230832
+  type: 4 (Cover (back))
+  MIME type: image/jpeg
+  description:
+  width: 634
+  height: 910
+
+metaflac --block-number=3 --export-picture-to=output-front.jpg file.flac
+metaflac --block-number=4 --export-picture-to=output-back.jpg file.flac
+
+metaflac --remove --block-type=PICTURE,PADDING file.flac
+metaflac --remove-tag=COVERART file.flac
+
+metaflac --remove --block-number=4 --dont-use-padding file.flac
+
+metaflac --remove --block-number=3 --block-number=4 --dont-use-padding file.flac
+
+metaflac --remove --block-number=3 --dont-use-padding file.flac

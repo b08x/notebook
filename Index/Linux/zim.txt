@@ -1,0 +1,53 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-21T23:06:30-04:00
+
+===== zim =====
+Created Tuesday 21 September 2021
+
+===== GtkRC file =====
+source: https://pages.gitlab.io/zim/manual/Help/Config_Files.html
+
+Gtk+ has it's own config file that allows you to customize how things look. This is the gtkrc file and it is typically saved as ~/.gtkrc-2.0 in the home directory. Some widgets have a name so you can set specific options for those widgets. Widgets that have a name in zim are:
+
+The textview showing the page: zim-pageview
+The treeview showing the page index: zim-pageindex
+You can for example set the font used in the index by adding this to your gtkrc file:
+
+{{{code: lang="ruby" linenumbers="False"
+style "zim-pageindex-style"
+{
+	font_name = "Sans 8"
+}
+widget "*.zim-pageindex" style "zim-pageindex-style"
+}}}
+
+
+or this example to make the treeview a bit more compact:
+{{{code: lang="ruby" linenumbers="False"
+style "gtkcompact" 
+{
+	GtkTreeView::vertical-separator=0
+	GtkTreeView::horizontal-separator=0
+	GtkTreeView::expander-size=6
+	GtkTreeView::fixed-height-mode=TRUE
+	GtkWidget::focus_padding=0
+}
+class "GtkWidget" style "gtkcompact"
+}}}
+
+
+To change the base colors of the pageview widget use something like:
+{{{code: lang="ruby" linenumbers="False"
+style "mycolors" 
+{
+	base[NORMAL]: "black"
+	base[SELECTED]: "#6699cc"
+	text[NORMAL]: "#c0c0c0"
+}
+widget "*.zim-pageview" style "mycolors"
+}}}
+
+
+
+Check the internet for more examples.

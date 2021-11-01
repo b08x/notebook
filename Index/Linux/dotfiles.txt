@@ -1,0 +1,44 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-03-24T03:29:41-04:00
+
+====== dotfiles ======
+Created Wednesday 24 March 2021
+
+https://www.atlassian.com/git/tutorials/dotfiles
+
+git init --bare $HOME/.dots
+alias dots='/usr/bin/git --git-dir=$HOME/.dots/ --work-tree=$HOME'
+dots config --local status.showUntrackedFiles no
+
+
+
+
+
+====== on new host ======
+
+alias dots='/usr/bin/git --git-dir=$HOME/.dots/ --work-tree=$HOME'
+echo ".dots" » .gitignore
+git clone --bare $GITREPO $HOME/.dots
+dots checkout $HOSTNAME
+(delete duplicates)
+dots config --local status.showUntrackedFiles no
+
+
+=== gnome keyring, pam and various dot files ===
+@passwords
+
+
+wanting to have keyrings unlocked at login, trying this out in xprofile:
+
+{{{code: lang="sh" linenumbers="True"
+#!/usr/bin/env bash
+eval $(/usr/bin/gnome-keyring-daemon --start --components=secrets,ssh)
+
+systemctl --user import-environment GPG_TTY SSH_AUTH_SOCK
+                                     
+dbus-update-activation-environment --systemd DBUS_SESSION_BUS_ADDRESS DISPLAY XAUTHORITY
+
+
+
+}}}

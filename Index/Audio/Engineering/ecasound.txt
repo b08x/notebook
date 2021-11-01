@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-22T22:48:29-04:00
+
+====== ecasound ======
+
+
+===== Known Problems =====
+
+=== resampled, twice ===
+If the ecasound internal sample rate does not match audio file sample rate, 
+the signal will get resampled twice
+
+{{{code: lang="ruby" linenumbers="False"
+# ensure that the ecasound knows
+# determine encoding, channels and sample rate
+ecaformat = `ecaformat -sf #{audiofile}`.strip
+
+eca_command = `ecasound -f:#{ecaformat} -i:{audiofile_in} -o:#{audiofile_out}`
+}}}
+
+

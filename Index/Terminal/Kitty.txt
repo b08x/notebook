@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-05T11:43:35-04:00
+
+====== Kitty ======
+Created Sunday 05 September 2021
+
+accessing remote files;
+
+```
+ssh bender
+cd $LIBRARY
+ls --hyperlink=auto
+```
+press Ctrl+Shift then click on the files to edit....
+
+set editor to something besides  vim... = 

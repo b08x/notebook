@@ -1,0 +1,37 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-07-25T06:13:17-04:00
+
+====== Jekyll 3.9 and github pages ======
+
+from : https://bbs.archlinux.org/viewtopic.php?id=265534
+
+if this happens: 
+
+{{{code: lang="ruby" linenumbers="False"
+jekyll 3.9.0 | Error:  no implicit conversion of Hash into Integer
+/home/b08x/.rvm/gems/ruby-3.0.0@syncopated_studios/gems/pathutil-0.16.2/lib/pathutil.rb:502:in `read': no implicit conversion of Hash into Integer (TypeError)
+	from /home/b08x/.rvm/gems/ruby-3.0.0@syncopated_studios/gems/pathutil-0.16.2/lib/pathutil.rb:502:in `read'
+	from /home/b08x/.rvm/gems/ruby-3.0.0@syncopated_studios/gems/jekyll-3.9.0/lib/jekyll/utils/platforms.rb:75:in `proc_version'
+	from /home/b08x/.rvm/gems/ruby-3.0.0@syncopated_studios/gems/jekyll-3.9.0/lib/jekyll/utils/platforms.rb:40:in `bash_on_windows?'
+	from /home/b08x/.rvm/gems/ruby-3.0.0@syncopated_studios/gems/jekyll-3.9.0/lib/jekyll/commands/build.rb:77:in `watch'
+	from /home/b08x/.rvm/gems/ruby-3.0.0@syncopated_studios/gems/jekyll-3.9.0/lib/jekyll/commands/build.rb:43:in `process'
+	from /home/b08x/.rvm/gems/ruby-3.0.0@syncopated_studios/gems/jekyll-3.9.0/lib/jekyll/commands/serve.rb:93:in `block in start'
+	from /home/b08x/.rvm/gems/ruby-3.0.0@syncopated_studios/gems/jekyll-3.9.0/lib/jekyll/commands/serve.rb:93:in `each'
+	from /home/b08x/.rvm/gems/ruby-3.0.0@syncopated_studios/gems/jekyll-3.9.0/lib/jekyll/commands/serve.rb:93:in `start'
+	from /home/b08x/.rvm/gems/ruby-3.0.0@syncopated_studios/gems/jekyll-3.9.0/lib/jekyll/commands/serve.rb:75:in `block (2 levels) in init_with_program'
+	from /home/b08x/.rvm/gems/ruby-3.0.0@syncopated_studios/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `block in execute'
+	from /home/b08x/.rvm/gems/ruby-3.0.0@syncopated_studios/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `each'
+	from /home/b08x/.rvm/gems/ruby-3.0.0@syncopated_studios/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `execute'
+	from /home/b08x/.rvm/gems/ruby-3.0.0@syncopated_studios/gems/mercenary-0.3.6/lib/mercenary/program.rb:42:in `go'
+	from /home/b08x/.rvm/gems/ruby-3.0.0@syncopated_studios/gems/mercenary-0.3.6/lib/mercenary.rb:19:in `program'
+	from /home/b08x/.rvm/gems/ruby-3.0.0@syncopated_studios/gems/jekyll-3.9.0/exe/jekyll:15:in `<top (required)>'
+	from /bin/jekyll:23:in `load'
+	from /bin/jekyll:23:in `<main>'
+
+}}}
+
+
+replace pathutil.rb with this one:
+
+https://github.com/envygeeks/pathutil/pull/5/commits/3451a10c362fc867b20c7e471a551b31c40a0246/

@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-27T03:58:34-04:00
+
+====== routing ======
+Created Monday 27 September 2021
+
+* midi channelize
+* midi channel unisono
+* midi cc map
+* midi cc to note
+* midi note to cc
+* qmidiroute
+
+
+12/01/2019
+
+aseqnet - aseqnet  is  an  ALSA  sequencer  client which sends and receives event
+	   packets over network.

@@ -1,0 +1,49 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-27T06:36:36-04:00
+
+====== blueprint ======
+
+===== using lambda to do stuff =====
+
+{{{code: lang="ruby" linenumbers="False"
+class Library
+  AddAudioFile = lambda do |args|
+	STDOUT.puts "test"
+	sleep 1.0
+	STDOUT.puts "a command could have run here"
+   end
+   def self.add
+	 addaudiofile = {:file => {:notes => [{"A3" => {:freq => 232.232, :velocity => 80 }]}}}
+   end
+ end
+}}}
+
+
+{{{code: lang="ruby" linenumbers="False"
+ class AudioFile < Blueprinter::Base
+   identifier :filename
+   fields :note, :frequency, :velocity
+ end
+}}}
+
+
+module Something
+
+class AudioBluePrint < Blueprinter::Base
+
+  #identifier :uuid
+  field :fullpath, name: :path
+
+  view :normal do
+	fields :title, :extension
+  end
+
+  view :extended do
+	include_view :normal
+	field :duration
+	association :projects
+  end
+end
+end
+{ fullpath: "/path/to/Library/test.wav", title: "test", extension: ".wav", duration: 34.0 }

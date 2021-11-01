@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-21T18:07:40-04:00
+
+====== debian ======
+Created Tuesday 21 September 2021
+
+=== upgrade-system ===
+
+```
+APT-Sources: http://deb.debian.org/debian bullseye/main amd64 Packages
+Description: command for upgrading and sanitizing a Debian system
+ Upgrade-system offers a convenient way to keep a Debian system up-to-date,
+ yet free from accumulated cruft such as obsolete libraries.
+```
+
+
+
+=== uburden-home-dir ===
+https://github.com/xtaran/unburden-home-dir
+
+move cache files located in /home/<user> to another location....
+
+https://unburden-home-dir.readthedocs.io/en/latest/configuration/index.html#configuration-files
+

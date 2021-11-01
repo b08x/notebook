@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-22T08:03:48-04:00
+
+====== Terminal ======
+
+* tput, reset - initialize a terminal or query terminfo database
+* tset, reset - terminal initialization
+* tabs - set tabs on a terminal

@@ -1,0 +1,35 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-08-02T01:48:47-04:00
+
+====== openMHA ======
+Created Monday 02 August 2021
+
+
+to start interactively;
+change into the directory with the config you want to run
+
+cd ~/Workspace/openMHA/configs
+mha --interactive
+
+then to read in a file
+
+?read:adm.cfg
+cmd=start
+
+then to stop
+cmd=stop
+
+[[/openMHA_starting_guide.pdf]]
+
+
+====== compiling ======
+
+when compiling, you may see an error that looks like: 
+
+error: 'strncpy' output truncated before terminating nul copying as many bytes from a string as its length [-Werror=stringop-truncation]
+
+
+A quick workaround is to replace strncpy with memcpy or to disable the warning
+
+

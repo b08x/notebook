@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-27T05:35:12-04:00
+
+====== Analysis ======
+
+gwave - waveform viewer eg for spice 
+sptk
+sctk
+stk
+x2x
+
+tkdnd - tk drag and drop
+tkdesk - tk filemanager
+
+tk-fsdialog - file selection
+
+
+
+Assuming a tuning frequency of A4 = 440 Hz, the reference frequency used in the Cent scale
+is the frequency of the note A1 = 55Hz, i.e. 55Hz = 0 Cent.
+
+. In order to make the processing musically relevant, the f0 values should be converted first
+from Hertz to Cents, which is a logarithmic scale.

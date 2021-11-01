@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-10-28T15:35:13-04:00
+
+====== utils ======
+Created Thursday 28 October 2021
+
+- [ ] googler for command-not-found.com

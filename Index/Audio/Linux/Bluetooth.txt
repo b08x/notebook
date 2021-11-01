@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-08-05T10:45:44-04:00
+
+====== Bluetooth ======
+Created Thursday 05 August 2021
+
+start bluetooth
+start pulse
+connect bt device
+* make sure the pulse capture isn't muted
+
+jack needs to be started before pulse_loopback is loaded...
+
