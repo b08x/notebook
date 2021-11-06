@@ -51,6 +51,15 @@ pp records
 https://github.com/forgecrafted/finishing_moves
 "Ruby's strip method removes leading and trailing whitespace, but there's no method to strip other characters like dashes, underscores, or numbers. strip_all allows you to perform these kinds of cleanups without having to write any regular expressions.
 
+
+
+
+
+
+
+
+
+
 The lone argument is a string of the characters you want to remove. By default, strip_all will remove dashes - and underscores _."
 {{{code: lang="erlang" linenumbers="False"
 '___foo___'.strip_all
@@ -62,7 +71,13 @@ The lone argument is a string of the characters you want to remove. By default, 
 }}}
 
 
+
 https://github.com/forgecrafted/finishing_moves/wiki/String#stringmatch
+
+
+
+
+
 
 {{{code: lang="erlang" linenumbers="False"
 Ruby's match method is often used in boolean operations to determine the presence or absence of a given pattern within a string. That's why we found it odd that Ruby doesn't include a shortcut method to return a boolean result.
@@ -94,6 +109,10 @@ https://github.com/forgecrafted/finishing_moves/wiki/Kernel#kernelcascade
 https://github.com/forgecrafted/finishing_moves/wiki/Numeric#numericsubtract_percent
 
 https://github.com/geemus/formatador
+
+
+
+
 {{{code: lang="ruby" linenumbers="False"
 display_table: takes an array of hashes. Each hash is a row, with the keys being the headers and values being the data. An optional second argument can specify which headers/columns to include and in what order they should appear.
 display_compact_table: Same as display_table, execpt that split lines are not drawn by default in the body of the table. If you need a split line, put a :split constant in the body array.
