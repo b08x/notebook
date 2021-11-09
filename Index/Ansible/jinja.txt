@@ -1,0 +1,59 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-11-09T13:34:05-05:00
+
+====== jinja ======
+Created Tuesday 09 November 2021
+
+
+Check if variable is defined (exists):
+
+{{{code: lang="sh" linenumbers="False"
+{% if variable is defined %}
+	variable is defined
+{% else %}
+	variable is not defined
+{% endif %}
+}}}
+
+
+
+Check if variable is empty:
+{{{code: lang="sh" linenumbers="False"
+{% if variable|length %}
+	variable is not empty
+{% else %}
+	variable is empty
+{% endif %}
+}}}
+
+
+Check if variable is true:
+{{{code: lang="sh" linenumbers="False"
+{% if variable is sameas true %}
+	variable is true
+{% else %}
+	variable is not true
+{% endif %}
+}}}
+
+
+Check if variable is defined and not empty:
+{{{code: lang="sh" linenumbers="False"
+{% if variable is defined and variable|length %}
+	variable is defined and not empty
+{% else %}
+	variable is not defined or empty
+{% endif %}
+}}}
+
+
+Check if variable is defined and true:
+{{{code: lang="sh" linenumbers="False"
+{% if variable is defined and variable is sameas true %}
+	variable is defined and true
+{% else %}
+	variable is not defined or not set to true
+{% endif %}
+}}}
+
