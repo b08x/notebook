@@ -8,7 +8,7 @@ Created Tuesday 09 November 2021
 
 Check if variable is defined (exists):
 
-{{{code: lang="sh" linenumbers="False"
+{{{code: lang="erb-html" linenumbers="False"
 {% if variable is defined %}
 	variable is defined
 {% else %}
