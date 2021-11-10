@@ -7,7 +7,7 @@ Created Monday 27 September 2021
 ζ notice how the analysis on the right looks like a childs scribling of an unhappy face while on the left a couple of folksy demons are doing a dance. 
 [[./jslhr-s-17-0388whitfield_featimage.jpg]]
 
-{{{code: lang="markdown" linenumbers="False"
+{{{code: lang="latex" linenumbers="False"
 
 https://pubs.asha.org/doi/pdf/10.1044/2018_JSLHR-S-17-0388
 
