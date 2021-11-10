@@ -4,6 +4,8 @@ Creation-Date: 2021-09-22T22:48:29-04:00
 
 ====== ecasound ======
 
+[[ecasound:Digital Crossover|Digital Crossover]]
+[[Engineering:ecasound:Implementing Loudspeaker Crossovers using Ecasound and ACDf LADSPA plugins|Implementing Loudspeaker Crossovers using Ecasound and ACDf LADSPA plugins]]
 
 ===== Known Problems =====
 
