@@ -4,7 +4,7 @@ Creation-Date: 2021-09-27T03:41:36-04:00
 
 ====== Coltrane ======
 
-====== Core-music-theory-library ======
+===== Core-music-theory-library =====
 
 This document won't cover all methods, classes and details. This is more like a tour to give you an idea of what the library is capable of. To have a deeper view, I invite you to read the specs in the `/specs` folder of the library and to play with the lib yourself via `bin/console`.
 

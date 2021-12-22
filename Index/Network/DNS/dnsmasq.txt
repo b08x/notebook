@@ -6,6 +6,6 @@ Creation-Date: 2021-10-21T20:43:33-04:00
 
 additional dnsmasq options
 
-domain=syncopatedstudios.net
+domain=syncopated.net
 expand-hosts
-address=/bender.syncopatedstudios.net/git.syncopatedstudios.net/192.168.1.135
+address=/bender.syncopated.net/git.syncopated.net/192.168.41.8

@@ -6,4 +6,4 @@ Creation-Date: 2021-09-27T03:55:13-04:00
 Created Monday 27 September 2021
 
 options snd-usb-audio index=-2
-options snd-hda-intell powersave=0
+options snd-hda-intel powersave=0
