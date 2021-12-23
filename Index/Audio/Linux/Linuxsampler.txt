@@ -1,0 +1,42 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-12-23T14:57:43-05:00
+
+====== Linuxsampler ======
+Created Thursday 23 December 2021
+
+
+====== pipewire and linuxsampler ======
+
+{{{code: lang="sh" linenumbers="False"
+I haven't looked into pipewire before. But from what I see (not verified) they 
+solved it like this: JACK client apps are supposed to link against the 
+pipewire version of the JACK client lib (i.e. /usr/lib/pipewire-0.3/jack/
+libjack.so.0) instead of the official JACK client lib (i.e. /usr/lib/
+libjack.so.0).
+
+And yes, pipewire-jack-dropin apparently is intended to make this working for 
+existing JACK clients as well without recompiling them, by installing a config 
+file to /etc/ld.so.conf.d/ which in turn would override/remap the linker path 
+to the JACK client lib.
+
+But your other apps are apparently not using that ld.so.conf.d mechanism which 
+ldd output proofs. They are directly linked to pipewire's lib instead. So 
+chances are that something with your pipewire-jack-dropin is incorrect. It may 
+be a path has simply changed for instance (e.g. there is pipewire version 
+number in the path).
+
+So you either figure out what's wrong with the ld.so.conf.d file, or you 
+recompile LS and replace in configure.ac the line
+
+	PKG_CHECK_MODULES(JACK, jack, have_jack=1, have_jack=0)
+
+to search and link against pipewire's lib directly at compile time instead.
+
+You might also check what other audio apps are doing at compile time. Probably 
+they already changed their configure script to search for both, the official 
+JACK and pipewire's JACK and pick automatically either one available at 
+compile time.
+
+}}}
+
