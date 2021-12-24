@@ -529,8 +529,7 @@ Chord.new(name: 'A7').notes.names
 ```
 
 ```ruby
-Chord.new(root_note: Note['C'],
-		  quality: ChordQuality.new(name: 'm7')).notes.names
+Chord.new(root_note: Note['A'], quality: ChordQuality.new(name: '9sus4')).notes.names
 #=> ["C", "D#", "G", "A#"]
 ```
 
