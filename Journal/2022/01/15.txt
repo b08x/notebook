@@ -37,3 +37,9 @@ Jan 15 09:24:56 calculon rtkit-daemon[1956]: Supervising 8 threads of 4 processe
 }}}
 
 
+
+@pipewire
+
+Jan 15 23:06:53 calculon pipewire[1945]: spa.alsa: front:0: follower delay:1056 target:512 thr:512, resync
+Jan 15 23:06:42 calculon pipewire[1945]: spa.alsa: front:0: follower delay:1036 target:512 thr:512, resync
+Jan 15 23:02:01 calculon pipewire[1945]: spa.alsa: front:0: follower delay:1072 target:512 thr:512, resync
