@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-01-30T04:43:51-05:00
+
+====== Sunday 30 Jan 2022 ======
+
+crambot.syncopated.net	192.168.41.4	00:1B:21:87:E8:BA	77	
+2%
+lapbot.syncopated.net	192.168.41.5	9C:30:5B:D8:0C:1F	7	
+0%
+Galaxy-J7-Prime	192.168.41.6	48:c7:96:2e:bf:69
