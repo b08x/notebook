@@ -4,7 +4,7 @@ Creation-Date: 2022-02-06T16:44:48-05:00
 
 ====== Sunday 06 Feb 2022 ======
 
-[614, 653, 8241]
+
 
 
 
@@ -14,7 +14,7 @@ To whom it may concern;
 
 I hope this message finds you doing well. 
 
-The challenge of marketing my qualifications without demonstration is a difficult one. I imagine you have tedious stacks templates, describing a lot of fine folk who can perform this job quite well. All I can say is that if you need something; I got you, Fam. 
+The challenge of marketing my qualifications without demonstration is a difficult one. I imagine you have tedious stacks templates, describing a lot of fine folk who can perform this job quite well. As far as the requirements for this position, I do have expereience in each of the areas listed on the posting. I have not worked with Kubernates or OpenStack however I do have expereince with the management of containerized applications. 
 
 My details should be visible, but if not; 614-653-8241 or rwpannick@gmail.com
 
