@@ -14,13 +14,13 @@ Hello!
 
 I hope this message finds you doing well. 
 
-The challenge of marketing passion for Linux without demonstration is a difficult one. I imagine you have stacks of applicants, each of whom enthustic about hacking bits. My technical expertise along with my ability to gracefully liaise with clients is what I hope makes me a potentially more suitable candidate.
+The challenge of marketing passion for Linux without demonstration is a difficult one. I imagine you have stacks of applicants, each of whom enthusiastic about hacking bits. My technical expertise along with my ability to gracefully liaise with clients is what I hope makes me a potentially more suitable candidate.
 
-As far as the requirements for this position; Except for Ubuntu, I have not worked with most Canonical products. However, I do have equivlant experience with the RedHat products. And while I have not worked with Kubernates nor OpenStack, I do have experience in managing containerized applications in the various stages of development. I use KVM in my lab and have worked with vMware/Azure in the past. I am quite proficent if not obessive when debugging stack traces. Ruby being the language I'm most familar with. 
+As far as the requirements for this position; Except for Ubuntu, I have not worked with most Canonical products. However, I do have equivalent experience with the RedHat products. And while I have not worked with Kubernates nor OpenStack, I do have experience in managing containerized applications in the various stages of development. I use KVM in my lab and have worked with vMware/Azure in the past. I am quite proficient if not obsessive when debugging stack traces. Ruby being the language I'm most familiar with. 
 
 My details should be visible, but if not; 614-653-8241 or rwpannick@gmail.com
 
-Bob || Thank you
+Thank you || Bob
 
 Besides Ubuntu my equivalent experience would be with RedHat products
 
