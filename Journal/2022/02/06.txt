@@ -10,11 +10,13 @@ Creation-Date: 2022-02-06T16:44:48-05:00
 
 
 
-To whom it may concern;
+Hello!
 
 I hope this message finds you doing well. 
 
-The challenge of marketing my passion for Linux without demonstration is a difficult one. I imagine you have stacks of applicants, describing a lot of fine folk who can perform this job quite well. What I hope makes me a potentially more suitable candidate are my communication skills. I do my best to take care when I have to liaise with clients who aren't as familar with the technology.As far as the requirements for this position, I have not worked with most Canonical products (Ubuntu being the exception), I do have equivlant experience with the RedHat products. I have not worked with Kubernates nor OpenStack, however, I do have expereince with the management of containerized applications. I use KVM in my lab and have worked with vMware/Azure in the past. I am quite proficent in debugging stack traces, with Ruby being the language I'm most familar with. 
+The challenge of marketing passion for Linux without demonstration is a difficult one. I imagine you have stacks of applicants, each enthustic about hacking bits. My technical  What I hope makes me a potentially more suitable candidate are my skills with communication, pattern matching and problem solving. As well as my ability to gracefully liaise with clients who aren't as familar with the technology.
+
+As far as the requirements for this position, I have not worked with most Canonical products (Ubuntu being the exception). I do have equivlant experience with the RedHat products. And while I have not worked with Kubernates nor OpenStack, I do have expereince with the management of containerized applications. I use KVM in my lab and have worked with vMware/Azure in the past. I am quite proficent in debugging stack traces, with Ruby being the language I'm most familar with. 
 
 My details should be visible, but if not; 614-653-8241 or rwpannick@gmail.com
 
