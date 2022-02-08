@@ -14,7 +14,7 @@ To whom it may concern;
 
 I hope this message finds you doing well. 
 
-The challenge of marketing my qualifications without demonstration is a difficult one. I imagine you have tedious stacks of , describing a lot of fine folk who can perform this job quite well. As far as the requirements for this position, while I do not worked with most specifc Canonical products (Ubuntu being the exception), I do have equivlant experience with the RedHat products. I have not worked with Kubernates or OpenStack specifically, however I do have expereince with the management of containerized applications. I use KVM in my lab and have worked with vMware/Azure in the past. I am quite proficent in debugging stack traces, with Ruby being the language I'm most familar with. 
+The challenge of marketing my passion for Linux without demonstration is a difficult one. I imagine you have stacks of applicants, describing a lot of fine folk who can perform this job quite well. What I hope makes me a potentially more suitable candidate are my communication skills. I do my best to take care when I have to liaise with clients who aren't as familar with the technology.As far as the requirements for this position, I have not worked with most Canonical products (Ubuntu being the exception), I do have equivlant experience with the RedHat products. I have not worked with Kubernates nor OpenStack, however, I do have expereince with the management of containerized applications. I use KVM in my lab and have worked with vMware/Azure in the past. I am quite proficent in debugging stack traces, with Ruby being the language I'm most familar with. 
 
 My details should be visible, but if not; 614-653-8241 or rwpannick@gmail.com
 
