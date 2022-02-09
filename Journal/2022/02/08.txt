@@ -31,14 +31,16 @@ $?.pid
 {{{code: lang="ruby" linenumbers="False"
 #!/usr/bin/env ruby
 
-
-command = "kitty @ launch --keep-focus htop"
-
-if system(command)
-	command_pid = $?.pid
-else
-	puts "command did not run, for some reason..."
-	puts "#
+fork do
+  pid, stdin, stdout, stderr =  Open4::popen4("xterm -hold -e echo 'hello'")
+  if $?.exitstatus != 0
+  	puts "#{stderr}\n"
+  	puts "#{stdout}\n"
+  	puts "exiting..."
+  	exit
+  end
+  	
+end  
 
 
 }}}
