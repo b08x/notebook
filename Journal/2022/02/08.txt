@@ -1,0 +1,23 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-02-08T23:58:27-05:00
+
+====== Tuesday 08 Feb 2022 ======
+
+@ruby
+
+{{{code: lang="ruby" linenumbers="False"
+#!/usr/bin/env ruby
+
+exec("kitty @ launch --title Output --keep-focus cat")
+
+}}}
+
+
+{{{code: lang="ruby" linenumbers="False"
+#!/usr/bin/env ruby
+
+variable_name = eval(IO.read('ruby_file.rb'))
+
+
+}}}
