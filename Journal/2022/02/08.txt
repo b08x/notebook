@@ -9,7 +9,9 @@ Creation-Date: 2022-02-08T23:58:27-05:00
 {{{code: lang="ruby" linenumbers="False"
 #!/usr/bin/env ruby
 
-exec("kitty @ launch --title Output --keep-focus cat")
+cmd = "kitty @ launch --title Output --keep-focus cat"
+
+system(cmd)
 
 }}}
 
@@ -17,7 +19,26 @@ exec("kitty @ launch --title Output --keep-focus cat")
 {{{code: lang="ruby" linenumbers="False"
 #!/usr/bin/env ruby
 
-variable_name = eval(IO.read('ruby_file.rb'))
+kitty = eval(IO.read('ruby_file.rb'))
+if 
+$?.pid
+
+
+
+}}}
+
+
+{{{code: lang="ruby" linenumbers="False"
+#!/usr/bin/env ruby
+
+
+command = "kitty @ launch --keep-focus htop"
+
+if system(command)
+	command_pid = $?.pid
+else
+	puts "command did not run, for some reason..."
+	puts "#
 
 
 }}}
