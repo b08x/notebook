@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-02-16T20:59:16-05:00
+
+====== Wednesday 16 Feb 2022 ======
+
+	  #i3-msg "workspace 7, split v, exec 'kitty', exec 'baudline_jack', focus"
