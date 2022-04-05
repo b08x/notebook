@@ -21,3 +21,24 @@ end
 }}}
 
 
+
+# replace a string with an empty string by default
+{{{code: lang="ruby" linenumbers="True"
+class String
+  alias original_sub sub
+  alias original_sub! sub!
+
+  def sub(pattern, replacement = "", &block)
+    original_sub(pattern, replacement, &block)
+  end
+
+  def sub!(pattern, replacement = "", &block)
+    original_sub!(pattern, replacement, &block)
+  end
+end
+
+puts "hello".sub("l")
+puts "hello".sub!("l")
+
+}}}
+
