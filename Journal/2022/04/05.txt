@@ -1,0 +1,60 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-04-05T15:00:37-04:00
+
+====== Tuesday 05 Apr 2022 ======
+
+@audio
+
+The Fletcher Munson Curve is a principle in psychoacoustics put forward in 1933 by two American physicists, Harvey Fletcher and Wilden Munson, hence the namesake. Even though the standards have been updated in 2003 by an ISO, many still refer to Fletcher and Munson’s original paper to explain this phenomenon.
+
+Put simply, the principle states that the human ear perceives frequencies differently across different levels, even though the actual loudness of a sound does not change.
+
+This means that when we hear a particular sound at a certain loudness level or volume, our ears hear certain frequencies as ‘louder’ than the others even though this is not really the case.
+
+Moreover, as the loudness level changes, the frequencies that the human ear becomes more sensitive to change as well.
+
+To simplify the concept even further, the Fletcher Munson Curve implies that at low volumes, our ears have trouble perceiving low and high frequencies. Our ears tend to fixate on the middle frequencies, in the vicinity of 1k hZ. But when the volume turns up, our ears become more sensitive to lower and higher frequencies, drowning the middle frequencies.
+
+These fluctuations or ‘curves’ in perception exist because of the way the human ear is constructed. To some extent, it is an auditory illusion, because what we perceive is different from the actual sound that comes out of our speakers or headphones.
+
+If you want to geek out and know exactly where our perception of frequencies change, check out the graph below.
+
+Equal Loudness Contours
+Why mix engineers and producers need to be aware of it
+Let’s come up with an imaginary scenario.
+
+Imagine that you are working on a track at a pretty low volume. You probably want to leave a lot of headroom for mastering, and you want to protect your ears too.
+
+You then notice that some lower and higher frequencies need some boost. You make the necessary changes and feel satisfied with the results.
+
+The next day, you open up your project and bring up the volume. Then you notice that some of the lower and higher frequencies are too loud, so you make adjustments again.
+
+Then the next day, the same thing happens again, now that you are using your studio monitors at a lower volume. You scale back on the boosting and cutting.
+
+Finally, you’ll realize that it is a never-ending process.
+
+So what is the primary culprit here?
+
+Voila, it’s the Fletcher Munson Curve messing with your ears!
+
+As the principle goes, your perception of certain frequencies changes as you go from lower to higher volumes and vice versa.
+
+As a mix engineer, accuracy should be your priority. But psychoacoustic principles such as the Fletcher Munson curve say that what our minds and ears perceive do not represent actual sound phenomena. A discerning mix engineer should be aware of these discrepancies.
+
+Practical applications to the music production process
+To compensate for the Fletcher Munson curve, a practical tip for mix engineers is to mix at a comfortably loud volume, one that you are most confident of. After doing most of the mixing at this level, you can then proceed to give your mix another listen at the loudest possible volume.
+
+Some say that 80 to 85 dB SPL is a good benchmark for a long mixing session. One rule of the thumb is to mix in a level that you want your track to be heard by a casual listener.
+
+After making the most out of the mixing in this level, use your monitors and subwoofers to listen to your track at the loudest possible level. Even better, play your track in the space that you will be playing it in, may it be a club or an open-space. After this, make the necessary adjustments.
+
+To better illustrate how loud you should be mixing, imagine that you are driving and casually listening to the radio. Then, an interesting track comes up. You turn up the volume to hear more details. By the chorus of the song, you are really digging it. You turn it up as loud as you can.
+
+That is the volume you should be mixing at.
+
+If you don’t make adjustments at that level, you run the risk of creating a mix that may sound alright at medium volumes but sounds horrible at higher levels.
+
+A benefit of this approach is that you avoid mixing at very loud levels for a long time. Mixing at very loud levels for a long duration can lead to ear fatigue. Ear fatigue can negatively influence your decisions more than the Fletcher Munson Curve.
+
+Listening to your track at full volume only during the final stages of the mixing process will also give you fresh insights about your mix.
