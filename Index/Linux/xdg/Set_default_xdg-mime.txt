@@ -1,0 +1,38 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-04-13T02:20:03-04:00
+
+====== xdg-mime ======
+{{{code: lang="sh" linenumbers="False"
+$ xdg-mime query default inode/directory
+exfalso.desktop
+I determined that Ex Falso was (at least) the per-user default file browser. In fact,
+
+$ xdg-open ~
+was lauching Ex Falso on my home directory. I therefore executed
+
+$ xdg-mime default nautilus.desktop inode/directory
+$ xdg-mime query default inode/directory
+nautilus.desktop
+$ xdg-open ~
+and now my per-user setting was corrected. But still not the system wide one.
+
+I noticed that ~/.local/share/applications/mimeapps.list had a new line
+
+[Default Applications]
+ inode/directory=nautilus.desktop;
+Although the file /usr/share/applications/mimeapps.list does not exist, /usr/share/applications/mimeinfo.cache does and had the line
+
+[Default Applications]
+ inode/directory=exfalso.desktop;nautilus.desktop;
+that I changed to
+
+[Default Applications]
+ inode/directory=nautilus.desktop;
+I deleted the corresponding one from ~/.local/share/applications/mimeapps.list and now the problem is solved, my common sense system wide configuration is correct. And yet I don't know from where it came.
+
+UPDATE: updating the system may launch update-desktop-database (from the desktop-file-utils package) and revert the changes made in /usr/share/applications/mimeinfo.cache. A workaround is to delete the mimetype field of /usr/share/applications/exfalso.desktop.
+
+
+}}}
+
