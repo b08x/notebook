@@ -1,0 +1,35 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-04-13T17:03:52-04:00
+
+====== using hwinfo to get keyboard event id ======
+Created Wednesday 13 April 2022
+
+{{{code: lang="sh" linenumbers="False"
+[/usr/local/src/lsmi](master) hwinfo --keyboard
+19: USB 00.0: 10800 Keyboard                                    
+  [Created at usb.122]
+  Unique ID: asAB.OntrB+g9Q70
+  Parent ID: BobO.d7FDLX76qXB
+  SysFS ID: /devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.2/1-1.2.1/1-1.2.1:1.0
+  SysFS BusID: 1-1.2.1:1.0
+  Hardware Class: keyboard
+  Model: "Dell KB216 Wired Keyboard"
+  Hotplug: USB
+  Vendor: usb 0x413c "Dell Computer Corp."
+  Device: usb 0x2113 "KB216 Wired Keyboard"
+  Revision: "1.08"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event8
+  Device Files: /dev/input/event8, /dev/input/by-id/usb-413c_Dell_KB216_Wired_Keyboard-event-kbd, /dev/input/by-path/pci-0000:00:1a.0-usb-0:1.2.1:1.0-event-kbd
+  Device Number: char 13:72
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v413Cp2113d0108dc00dsc00dp00ic03isc01ip01in00"
+  Driver Info #0:
+    XkbRules: xfree86
+    XkbModel: pc104
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #26 (Hub)
+
+}}}
