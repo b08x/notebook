@@ -1,0 +1,48 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-04-13T07:14:22-04:00
+
+====== ladspa plugin properties ======
+Created Wednesday 13 April 2022
+
+{{{code: lang="sh" linenumbers="False"
+analyseplugin /usr/lib/ladspa/guitarix.so
+}}}
+
+{{{code: lang="sh" linenumbers="False"
+Plugin Name: "guitarix"
+Plugin Label: "Simulators"
+Plugin Unique ID: 4068
+Maker: "brummer"
+Copyright: "GPL"
+Must Run Real-Time: No
+Has activate() Function: Yes
+Has deactivate() Function: Yes
+Has run_adding() Function: No
+Environment: Normal or Hard Real-Time
+Ports:	"input00" input, audio
+	"output00" output, audio
+	"output01" output, audio
+	"balance" input, control, -1 to 1
+	"tone-bass" input, control, -20 to 20
+	"tone-treble" input, control, -20 to 20
+	"gain-in" input, control, -40 to 40
+	"gain-out" input, control, -40 to 40
+	"gain-preamp" input, control, toggled
+	"distortion-drive" input, control, 0 to 1
+	"distortion-onoff" input, control, toggled
+	"freeverb-roomsize" input, control, 0 to 1
+	"freeverb-onoff" input, control, toggled
+	"ir-frequency" input, control, 20 to 2200
+	"ir-peakgain" input, control, 0 to 10
+	"ir-onoff" input, control, toggled
+	"crybaby-wah" input, control, 0 to 1
+	"crybaby-onoff" input, control, toggled
+	"echo-release" input, control, 0 to 100
+	"echo-time" input, control, 0 to 2000
+	"echo-onoff" input, control, toggled
+	"feedbackgain" input, control, -1 to 1
+	"feedforwardgain" input, control, -1 to 1
+
+}}}
+
