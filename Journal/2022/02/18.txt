@@ -1,0 +1,40 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-02-18T08:00:48-05:00
+
+====== Friday 18 Feb 2022 ======
+
+@linux @shell
+
+PS1: environment variable which contains the value of the default prompt. It changes the shell command prompt appearance and environment.
+PS2: environment variable which contains the value the prompt used for a command continuation interpretation. You see it when you write a long command in many lines.
+PS3: environment variable which contains the value of the prompt for the select operator inside the shell script.
+PS4: environment variable which contains the value of the prompt used to show script lines during the execution of a bash script in debug mode.
+
+{{{code: lang="sh" linenumbers="False"
+\a The ASCII bell character (you can also type \007)
+\d Date in “Sat Sep 04″ format
+\e ASCII escape character (you can also type \033)
+\h First part of hostname (such as “mybox”)
+\H Full hostname (such as “mybox.mydomain.com”)
+\j The number of processes you’ve suspended in this shell by hitting ^Z
+\l The name of the shell’s terminal device (such as “ttyp4″)
+\n Newline
+\r Carriage return
+\s The name of the shell executable (such as “bash”)
+\t Time in 24-hour format (such as “23:59:59″)
+\T Time in 12-hour format (such as “11:59:59″)
+\@ Time in 12-hour format with am/pm
+\u Your username
+\v Version of bash (such as 2.04)
+\V Bash version, including patchlevel
+\w Current working directory (such as “/home/koithara”)
+\W The “basename” of the current working directory (such as “koithara”)
+\! Current command’s position in the history buffer
+\# Command number (this will count up at each prompt, as long as you type something)
+\$ If you are not root, inserts a “$”; if you are root, you get a “#”
+\xxx Inserts an ASCII character based on three-digit number xxx (replace unused digits with zeros, such as “\007″)
+\\ A backslash
+\[ This sequence should appear before a sequence of characters that don’t move the cursor (like color escape sequences). This allows bash to calculate word wrapping correctly.
+\] This sequence should appear after a sequence of non-printing characters.
+}}}

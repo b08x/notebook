@@ -14,13 +14,13 @@ Hello!
 
 I hope this message finds you doing well. 
 
-The challenge of marketing passion for Linux without demonstration is a difficult one. I imagine you have stacks of applicants, each of whom enthusiastic about hacking bits. My technical expertise along with my ability to gracefully liaise with clients is what I hope makes me a potentially more suitable candidate.
+I imagine you have stacks of applicants, each of whom will having compelling skill sets. My technical expertise along with my ability to gracefully liaise with clients is what I hope makes me a potentially more suitable candidate. As far as my experience related to the position qualifications, I believe they are well aligned.
 
-As far as the requirements for this position; Except for Ubuntu, I have not worked with most Canonical products. However, I do have equivalent experience with the RedHat products. And while I have not worked with Kubernates nor OpenStack, I do have experience in managing containerized applications in the various stages of development. I use KVM in my lab and have worked with vMware/Azure in the past. I am quite proficient if not obsessive when debugging stack traces. Ruby being the language I'm most familiar with. 
+A little about me; Several years ago my partner and I decided trade roles with her accepting a full-time position as an overnight Technical Support Specialist. In that time, while minding the household duties, I continued working on a project building a Linux distribution designed for musicians and audio engineers. While I've learned a great deal and have enjoyed the less intense schedule, I do miss the interaction with team-mates and clients alike. I'm mostly a night-owl, so positions like this are the ones I'm currently looking for.
 
-My details should be visible, but if not; 614-653-8241 or rwpannick@gmail.com
 
-Thank you || Bob
+
+-Bob
 
 Besides Ubuntu my equivalent experience would be with RedHat products
 

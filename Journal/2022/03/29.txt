@@ -1,0 +1,60 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-03-29T02:49:08-04:00
+
+====== Tuesday 29 Mar 2022 ======
+
+@xmodmap
+
+{{{code: lang="markdown" linenumbers="False"
+The important thing in xmodmap is to distinguish between keycodes (raw numbers from the keyboard), keysyms (what the keys end up meaning), and modifier flags, which are flags on keys (not keysyms). Say "this thing that I said was a shift key should modify other keys as a shift key"
+
+Let's annotate your example with these "types"
+
+keycode (keycode)66 = (keysym)Control_L
+clear (modifier)Lock
+add (modifier)Control = (keysym)Control_L
+keycode (keycode)117 = (keysym)Caps_Lock
+add (modifier)Lock = (keysym)Caps_Lock
+
+
+now we can get a better idea of what each line does:
+
+keycode 66 = Control_L
+associates the capslock key with the meaning of control key (but not as a modifier)
+
+clear Lock
+will remove the modifier flag of any key that previously had the Lock modifier (as the caps lock key represented by code 66 most likely has)
+
+add Control = Control_L
+Add the control modifier to keys that are associated with keysym Control_L (probably keycode 66 and original left control key)
+
+keycode 117 = Caps_Lock Assign the key with keycode 117 to act as a caps-lock (I'm not sure what 117 is, my keyboard doesn't have one.)
+
+add Lock = Caps_Lock Add the Lock modifier back onto the Caps_Lock keysym, with its shiny new-bound 117 keycode.
+
+so, to answer your questions directly:
+
+1. Control_L has already been mapped to 66, why is it necessary to add Control in line 3?
+
+You need both the modifier and the keysym to make a modifier key act properly as a modifier. (Seems a little weird to me, but that's how it is)
+
+2. Why do I have to clear Lock when I am actually adding Control?
+
+because the key associated with keycode 66 would still have the Lock modifier set on it. Modifiers don't get overwritten, you have to clear them.
+
+3. Why not clear Lock before I am actually adding Caps_Lock?
+
+You could do that too, it would work equally well, since Lock targets the modifier, which doesn't get changed when you mess with keysyms.
+
+xmodmap can be a very confusing beast to configure, here are some links I use when trying to understand it:
+
+http://cs.gmu.edu/~sean/stuff/n800/keyboard/old.html
+http://www.jwz.org/xkeycaps/man.html
+http://www.in-ulm.de/~mascheck/X11/xmodmap.html
+If there's anything I can try to make more clear, let me know.
+}}}
+
+
+
+
