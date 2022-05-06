@@ -71,7 +71,7 @@ bindsym $mod+x mode "$mode_display"
 
 https://raw.githubusercontent.com/altdesktop/i3ipc-python/master/examples/i3-cycle-focus.py
 
-
 https://github.com/hastinbe/i3-volume
 
 https://github.com/mota/i3-cycle
+=======

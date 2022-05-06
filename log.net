@@ -1,1 +1,0 @@
-net usershare add: share name /home/b08x/notebook contains invalid characters (any of %<>*?|/\+=;:",)

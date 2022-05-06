@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-04-12T03:08:06-04:00
+
+====== Chord Table ======
+
+
+{{./pasted_image001.png}}
+
+an augmented chord is the root + 3 + a sharp 5
+
+

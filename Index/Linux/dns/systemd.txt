@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-04-14T13:53:48-04:00
+
+@systemd
+
+if there isn't a /etc/resolv.conf then in /etc/systemd/resolved.conf `DNSStublistener` needs to be set to "yes"
+

@@ -1,0 +1,40 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-05T23:45:26-04:00
+
+Thinkpad keyboard
+
+https://wiki.archlinux.org/title/Xorg/Keyboard_configuration#Using_localectl
+
+https://gist.github.com/CodingCellist/05556e0cb6cde146fc3f70b578b73da3
+
+
+https://unix.stackexchange.com/questions/49650/how-to-get-keycodes-for-xmodmap
+
+https://www.reddit.com/r/archlinux/comments/h0k81o/fn_keys_of_thinkpad_p50_keyboard/
+
+
+{{{code: lang="sh" linenumbers="False"
+If you have set a different keyboard layout, you will notice that your nice, new graphical login prompt does not use it. This is because the X window system uses its own configuration files. We need to tell it which layout to use.
+
+Change to a command prompt by pressing Ctrl+Alt+F1 and login.
+Change the layout, e.g. in my case to Norwegian Dvorak by running
+sudo localectl --no-convert set-x11-keymap no thinkpad dvorak
+In general, the format is
+sudo localectl --no-convert set-x11-keymap <layout> [<keyboard_model> [<keyboard_variant>]]
+where <keyboard_model> is optional, but has to be provided if <keyboard_variant> is wanted to be provided.
+I think the keymap model thinkpad is the right one, but I do not know for certain. A list of keyboard models can be gotten by running
+localectl list-x11-keymap-models
+A list of layouts can be gotten by running
+localectl list-x11-keymap-layouts
+A list of variants can be gotten by running
+localectl list-x11-keymap-variants <layout>
+where <layout> is the layout you want the variants of.
+Reboot by running
+reboot
+The layout should now work.
+[sources: Arch Wiki keyboard layout using localectl page, man 1 localectl ]
+
+Terminal Emulator
+
+}}}

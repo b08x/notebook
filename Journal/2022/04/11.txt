@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-04-11T23:39:25-04:00
+
+====== Monday 11 Apr 2022 ======
+
+@beets
+
+https://github.com/florib779/beets-config/blob/master/genres/genres-tree.yaml
+
+https://github.com/kergoth/Beets-Library
+
+
+

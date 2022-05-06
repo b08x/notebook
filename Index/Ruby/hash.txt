@@ -1,0 +1,44 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-04-05T19:43:16-04:00
+
+====== hash ======
+Created Tuesday 05 April 2022
+
+@ruby
+
+{{{code: lang="ruby" linenumbers="True"
+class MyCustomClas
+  def initialize(attrs)
+		@x = attrs[:x]
+		@y = attrs[:y]
+	end
+	def hash
+		[@x, @y].hash
+	end
+end
+
+}}}
+
+
+
+# replace a string with an empty string by default
+{{{code: lang="ruby" linenumbers="True"
+class String
+  alias original_sub sub
+  alias original_sub! sub!
+
+  def sub(pattern, replacement = "", &block)
+    original_sub(pattern, replacement, &block)
+  end
+
+  def sub!(pattern, replacement = "", &block)
+    original_sub!(pattern, replacement, &block)
+  end
+end
+
+puts "hello".sub("l")
+puts "hello".sub!("l")
+
+}}}
+

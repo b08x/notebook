@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-01T06:58:56-04:00
+
+Data Recovery
+
+https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/repair-bde
+
+https://github.com/libyal/libewf/wiki

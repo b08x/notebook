@@ -7,3 +7,10 @@ Created Tuesday 04 January 2022
 
 https://wiki.archlinux.org/title/PipeWire/Examples
 
+https://www.collabora.com/news-and-blog/blog/2020/05/07/wireplumber-the-pipewire-session-manager/
+
+https://www.youtube.com/watch?v=HOsp-JlIkkY
+
+{{{code: lang="sh" linenumbers="False"
+pw-cli ls Port
+}}}
