@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-06T05:21:23-04:00
+
+====== iwd ======
+Created Friday 06 May 2022
+
+@iwd
+
+{{{code: lang="sh" linenumbers="False"
+iwd
+station wlan0 scan
+station wlan0 get-networks
+station wlan0 wlan0 connect SSID
+}}}
+
+
+
+ 
