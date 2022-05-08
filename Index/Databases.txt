@@ -7,4 +7,20 @@ Creation-Date: 2021-09-27T04:02:07-04:00
 
 === find and replace ===
 @sqlite
+
+{{{code: lang="sql" linenumbers="True"
 UPDATE items SET path = replace(path, '/mnt/bender/storage/media/audio//', '/mnt/bender/storage/media/audio/');
+}}}
+
+
+@sql @dupes
+
+https://stackoverflow.com/a/33754453/10073106
+{{{code: lang="sql" linenumbers="True"
+SELECT email, GROUP_CONCAT(id)
+FROM   users
+GROUP  BY email
+HAVING COUNT(email) > 1;
+}}}
+
+
