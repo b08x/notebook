@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-08T01:02:49-04:00
+
+====== Utils ======
+Created Sunday 08 May 2022
+
+@picard
+https://picard-docs.musicbrainz.org/en/tutorials/naming_script.html
