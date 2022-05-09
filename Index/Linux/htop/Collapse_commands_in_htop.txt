@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-09T01:06:12-04:00
+
+Collapse commands in htop
+
+@htop
+> You can use the * key
+
+This was implemented in version 3.0.5 (2021-01-12)
+
+https://github.com/htop-dev/htop/issues/68
+https://github.com/htop-dev/htop/pull/525
