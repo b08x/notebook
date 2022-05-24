@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-24T08:30:45-04:00
+
+set bundle to use local system gem location instead of user gem location
+
+```sh
+bundle config set --local system 'true'
+```
