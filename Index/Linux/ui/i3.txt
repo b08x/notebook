@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-07-04T03:01:23-04:00
+
+====== i3 ======
+Created Monday 04 July 2022
+
+====== window positions ======
+
+https://www.reddit.com/r/i3wm/comments/mrdsvs/make_windows_open_at_specific_workspace_position/gv34a78?utm_source=share&utm_medium=web2x&context=3
+
+# Get coordinates and geometry from xwininfo
+
+for_window [class="^zoom$"] move container to workspace $ws4, workspace $ws4, floating enable
+
+for_window [class="^zoom$" instance="^zoom$" title="^Zoom Meeting$"] floating enable, move position 3453 px 1330 px, resize set 1486 px 1166 px
+
+for_window [class="^zoom$" instance="^zoom$" title="^Zoom - Licensed Account$"] floating enable, move position 4954 px 1330 px, resize set 392 px 483 px
+
+for_window [class="^zoom$" instance="^zoom$" title="^Chat$"] floating enable, move position 4738 px 1830 px, resize set 596 px 600 px
