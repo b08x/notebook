@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-07-04T03:40:45-04:00
+
+====== Journal ======
+Created Monday 04 July 2022
+
