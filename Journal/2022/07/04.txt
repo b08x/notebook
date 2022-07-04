@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-07-04T01:21:00-04:00
+
+====== Monday 04 Jul 2022 ======
+
+$(YEAR)$(MONTH)$(DAY)_$(JOBCODE)
