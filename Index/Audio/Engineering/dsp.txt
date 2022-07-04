@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-07-04T02:40:40-04:00
+
+====== dsp ======
+Created Monday 04 July 2022
+
+
+4x4 pole allpass
+
+{{./screenshot_2021-05-19-025558.png}}

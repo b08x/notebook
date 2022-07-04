@@ -14,3 +14,13 @@ http://www.ambiophonics.org/Tutorials/Myths.html
 https://bb.linuxsampler.org/viewtopic.php?f=7&t=52
 
 pan/reverb | ambisonics
+
+
+@sparta
+# install the mkl library from an apt source. the current version availble in the debian repos scatters the files
+# all over the system. So either try this or find the source files to install in /opt
+https://software.intel.com/content/www/us/en/develop/articles/installing-intel-free-libs-and-python-apt-repo.html
+
+https://community.sw.siemens.com/s/article/sound-fields-free-versus-diffuse-field-near-versus-far-field
+
+https://community.sw.siemens.com/s/article/masking

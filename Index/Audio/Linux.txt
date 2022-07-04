@@ -13,3 +13,8 @@ vlevel-jack --length 22050 --max-multiplier 20 --strength 0.8
 
 @jconvolver
 https://github.com/wargreen/jc_confgen
+
+@sfz
+https://sfzformat.com/
+
+https://media.ccc.de/v/sonoj2019-1904-recording-samples#t=1469
