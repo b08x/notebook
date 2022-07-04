@@ -13,3 +13,25 @@ https://wiki.slimdevices.com/index.php/Brutefir_Filter.html
 http://drc-fir.sourceforge.net/
 
 https://lsp-plug.in/?page=manuals&section=para_equalizer_x16_stereo
+
+https://www.uaudio.com/blog/understanding-audio-phase/
+
+
+
+possible signs of phase cancellation...
+
+"thin sounding" - 'odd lack of bass'
+
+'kick drum seems to move around as opposed to sound like its coming from the same place'
+
+
+when laying down tracks, nudging track postions can effect this...
+
+
+thee is a plugin dealing with distance, ambisonic ones? ...
+
+use baudline to analyze
+
+
+
+for the time being, record both mono and stereo....

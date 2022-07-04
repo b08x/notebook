@@ -12,3 +12,8 @@ connect bt device
 
 jack needs to be started before pulse_loopback is loaded...
 
+https://github.com/libretro/Lakka-LibreELEC/wiki/Wireless-Dualshock
+
+https://code.google.com/archive/p/bluez-tools/
+
+https://wiki.archlinux.org/index.php/Bluetooth_headset

@@ -10,3 +10,6 @@ Created Tuesday 21 September 2021
 ```
 vlevel-jack --length 22050 --max-multiplier 20 --strength 0.8 
 ```
+
+@jconvolver
+https://github.com/wargreen/jc_confgen

@@ -8,6 +8,23 @@ Creation-Date: 2020-10-28T04:39:23-04:00
 https://github.com/kcat/openal-soft/blob/master/docs/ambisonics.txt
 
 
+http://non.tuxfamily.org/wiki/AmbisonicsReverb
+
+https://ccrma.stanford.edu/software/openmixer/manual/ambisonics_mode
+
+http://www.ambisonictoolkit.net/documentation/supercollider/
+
+
+http://www.matthiaskronlachner.com/wp-content/uploads/2013/01/kronlachner_aes_studentdesigncompetition_2014.pdf
+
+http://lac.linuxaudio.org/2013/download/kronlachner_ambisonics_plugin_suite_lac2013.pdf
+
+
+http://lac.linuxaudio.org/2013/papers/51.pdf
 
 
 
+http://quicktoots.linux-audio.com/index.php?t=4
+
+
+https://www.photopills.com/articles/understanding-azimuth-and-elevation
