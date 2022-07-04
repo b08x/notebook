@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-07-04T02:34:48-04:00
+
+====== nzb ======
+Created Monday 04 July 2022
+
+resolved with bumping imagick version to 3.4.4

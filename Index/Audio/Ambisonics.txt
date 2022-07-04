@@ -9,3 +9,8 @@ How can you tell if you have an Ambiophonic system working properly? If you put 
 
 
 http://www.ambiophonics.org/Tutorials/Myths.html
+
+# pretty good posts about the perception of sound and where it comes from
+https://bb.linuxsampler.org/viewtopic.php?f=7&t=52
+
+pan/reverb | ambisonics

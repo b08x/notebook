@@ -7,3 +7,18 @@ Created Monday 04 July 2022
 
 
 https://smallvenuesurvivalist.com/a-homebrew-upward-expander/
+
+[[https://www.soundonsound.com/techniques/double-mid-sides-array|double mid side explanation]]
+
+[[https://www.youtube.com/watch?v=hBhZ0KVD_Ls|mixing in reaper]]
+
+	[[https://www.audiorecording.me/reaper-aux-send-setting-reverb-parallel-compression.html|reverb_aux_send_parallel_compression]]
+
+	https://www.soundonsound.com/techniques/reaverb-part-1
+
+
+* run plugins as dedictaed process...
+	* with ambi plugins, cpu was reduced from ~20% to ~15
+
+
+https://github.com/junh1024/Reaper-Surround
