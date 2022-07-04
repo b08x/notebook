@@ -10,3 +10,29 @@ Creation-Date: 2021-09-27T03:56:47-04:00
 43-64 mf
 65-80 f
 81-127 ff
+
+@midi
+https://github.com/gethiox/keyboard2000
+
+
+
+--------------------
+
+@sequencer
+https://autostatic.com/tag/jack_midiseq/
+
+
+
+--------------------
+
+https://x42.github.io/midifilter.lv2/http___gareus_org_oss_lv2_midifilter_mapkeyscale.html
+
+
+==== midi events to shell commands ====
+https://github.com/zawwz/zmidimap/blob/master/example.mim
+
+https://github.com/gbevin/SendMIDI
+
+jack_midi_clock
+
+https://github.com/x42/mclk.lv2u
