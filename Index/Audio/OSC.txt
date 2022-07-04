@@ -9,3 +9,7 @@ Created Monday 04 July 2022
 https://github.com/danomatika/joyosc
 
 https://in-thread.sonic-pi.net/t/a-basic-framework-for-using-touchosc-with-sonic-pi/2293
+
+
+
+https://gist.github.com/rbnpi/d4a6757032cce7f232d29efd2b9444bd

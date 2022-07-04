@@ -5,10 +5,24 @@ Creation-Date: 2021-10-28T15:34:19-04:00
 ====== Soundbot ======
 Created Thursday 28 October 2021
 
-soundbot01
-soundbot02
-soundbot03
-soundbot04
+====== language model ======
+Created Sunday 18 October 2020
 
+=== Creating a Language Model ===
 
-tmuxinator
+Create a text file, containing a list of words/sentences we want to be recognized
+
+For instance ..
+
+Okay Pi
+Open Garage
+Start Translator
+Shutdown
+What is the weather in Ramona
+What is the time
+
+Upload the text file here: http://www.speech.cs.cmu.edu/tools/lmtool-new.html
+
+and then download the generated Pronunciation Dictionary and Language Model
+
+For the the text file mentioned above, this is what the tool generates:

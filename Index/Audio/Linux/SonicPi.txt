@@ -6,3 +6,5 @@ Creation-Date: 2022-07-04T02:23:33-04:00
 Created Monday 04 July 2022
 
 https://gist.github.com/alptugan/8aa987492e3e3041078f71d8ec5d045f
+
+https://github.com/everythingwillbetakenaway/Synthdefs
