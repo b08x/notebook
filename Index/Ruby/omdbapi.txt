@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-07-07T10:47:32-04:00
+
+====== omdbapi ======
+Created Thursday 07 July 2022
+
+$client = Omdb::Api::Client.new(api_key: "cace2b42")
