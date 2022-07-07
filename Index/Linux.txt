@@ -5,3 +5,8 @@ Creation-Date: 2021-09-21T17:53:41-04:00
 ====== Linux ======
 Created Tuesday 21 September 2021
 
+@daw
+http://users.notam02.no/~kjetism/radium/
+
+@soundbot @lfs
+https://sourceforge.net/p/ags/blog/2014/12/live-dvd-including-advanced-gtk-sequencer/

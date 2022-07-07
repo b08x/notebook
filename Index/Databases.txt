@@ -24,3 +24,11 @@ HAVING COUNT(email) > 1;
 }}}
 
 
+@links @database 
+
+{{{code: lang="sh" linenumbers="False"
+sqlitebiter                                                                                                                                           0.34.1-2                      AUR 
+    Convert CSV, Excel, HTML, JSON, Jupyter Notebook, LDJSON, LTSV, Markdown, SSV, TSV, Google-Sheets to SQLite database file
+
+}}}
+

@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-07-06T23:10:56-04:00
+
+====== nama ======
+Created Wednesday 06 July 2022
+
+https://freeshell.de/~bolangi/cgi1/nama.cgi/examples.html

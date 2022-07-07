@@ -1,16 +1,9 @@
 Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2021-05-01T06:44:21-04:00
+Wiki-Format: zim 0.6
+Creation-Date: 2022-07-06T23:14:37-04:00
 
-====== Saturday 01 May 2021 ======
-
-http://soundbot.duckdns.org
-
-# install ip check script as cron job on piratebot
-https://www.duckdns.org/install.jsp?tab=pi&domain=soundbot
-
-
-
+====== darkhttpd ======
+Created Wednesday 06 July 2022
 
 ===== installing self signed crt =====
 
