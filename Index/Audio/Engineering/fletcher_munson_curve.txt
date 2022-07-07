@@ -1,8 +1,9 @@
 Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.6
-Creation-Date: 2022-04-05T15:00:37-04:00
+Creation-Date: 2022-07-06T23:23:03-04:00
 
-====== Tuesday 05 Apr 2022 ======
+====== fletcher munson curve ======
+Created Wednesday 06 July 2022
 
 @audio
 

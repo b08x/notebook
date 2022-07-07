@@ -10,3 +10,10 @@ http://users.notam02.no/~kjetism/radium/
 
 @soundbot @lfs
 https://sourceforge.net/p/ags/blog/2014/12/live-dvd-including-advanced-gtk-sequencer/
+
+@graphics
+vectr
+pixelorama
+
+@reddit
+giara

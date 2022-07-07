@@ -2,7 +2,7 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.6
 Creation-Date: 2021-09-27T03:47:16-04:00
 
-====== Snippets ======
+====== snippets ======
 Created Monday 27 September 2021
 
 === creating usb iso with dd ===

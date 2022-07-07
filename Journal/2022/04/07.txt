@@ -1,5 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
-Creation-Date: 2022-04-14T14:08:53-04:00
-
-====== Thursday 07 Apr 2022 ======
