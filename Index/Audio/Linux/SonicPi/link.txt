@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-07-06T23:58:49-04:00
+
+====== link ======
+Created Wednesday 06 July 2022
+
+https://github.com/x37v/jack_transport_link
+
+https://github.com/rncbc/jack_link
+
+https://linuxmusicians.com/viewtopic.php?t=22430
