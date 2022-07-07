@@ -123,3 +123,13 @@ redisplay_progressbar: takes the current and total values as its first two argum
 https://github.com/geemus/formatador
 
 awesome print
+
+
+@ruby @process
+
+https://github.com/enkessler/childprocess
+
+@ruby @midi
+
+https://github.com/arirusso/midi-eye
+
