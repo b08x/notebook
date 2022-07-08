@@ -22,5 +22,5 @@ for dir in *.dsp;
 
 
 
-for flac in *.flac; do sox "$flac" -n stats done;
+
 
