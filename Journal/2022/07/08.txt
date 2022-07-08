@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-07-08T09:44:56-04:00
+
+====== Friday 08 Jul 2022 ======
+
+@video @editing
+
+https://github.com/ozmartian/vidcutter
+
+https://jliljebl.github.io/flowblade/index.html
+
+
+@software
+[ ] https://wereturtle.github.io/ghostwriter/
+[ ] https://www.lesbonscomptes.com/recoll/index.html
+
+
