@@ -20,3 +20,7 @@ for dir in *.dsp;
   done;
 }}}
 
+
+
+for flac in *.flac; do sox "$flac" -n stats done;
+
