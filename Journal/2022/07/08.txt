@@ -16,3 +16,7 @@ https://jliljebl.github.io/flowblade/index.html
 [ ] https://www.lesbonscomptes.com/recoll/index.html
 
 
+@eq
+
+for vocal eq, cut -18db around ~995Hz (using x42-mono-eq)
+
