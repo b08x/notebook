@@ -12,3 +12,12 @@ coltrane
 sonic-annotator...
 
 
+
+@gnuplot
+
+https://gideonwolfe.com/posts/gnuplot/theming/
+
+
+
+`pamac install plotutils`
+
