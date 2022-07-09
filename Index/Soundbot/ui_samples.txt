@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-07-09T18:28:52-04:00
+
+====== ui samples ======
+Created Saturday 09 July 2022
+
+
+@soundbot_ui
+{{./screenshot_2022-07-09-182752.png?width=1020}}
+
+more screenshots: https://github.com/GideonWolfe/canvas-tui
