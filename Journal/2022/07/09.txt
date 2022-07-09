@@ -26,3 +26,4 @@ need to use .xprofile here
 
 bash conditional expressions
 
+[ ] jack_load/jack_unload script -> button
