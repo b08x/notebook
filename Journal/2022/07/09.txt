@@ -8,4 +8,10 @@ Creation-Date: 2022-07-09T02:18:57-04:00
 xwininfo - get dimensions of an open window
 
 
-E8C8 - mic
+@vim @debate
+
+thinking about switching to gvim over neovim...
+
+
+@i3
+[ ] autotiling
