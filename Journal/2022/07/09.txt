@@ -55,3 +55,12 @@ VoPaSt - a stereo volume and panning plugin controlled via MIDI CC 7 and 10
 VoPaMo - a mono volume plugin controlled via MIDI CC
 
 
+https://github.com/igorski/fogpad
+
+
+@visual
+
+https://github.com/Huluti/Curtail
+https://github.com/flameshot-org/flameshot
+http://qstopmotion.org/
+
