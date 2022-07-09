@@ -2,7 +2,7 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.6
 Creation-Date: 2022-07-07T11:44:41-04:00
 
-====== samples ======
+====== midi map ======
 Created Thursday 07 July 2022
 
 Key#	Note	Drum Sound	Key#	Note	Drum Sound
