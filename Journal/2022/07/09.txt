@@ -15,3 +15,7 @@ thinking about switching to gvim over neovim...
 
 @i3
 [ ] autotiling
+
+@i3 @x11
+
+when using lightdm with autologin, it calls an Xsession file in /etc/lightdm...
