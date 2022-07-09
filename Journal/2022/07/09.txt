@@ -76,3 +76,7 @@ http://qstopmotion.org/
 Here's an example:
 
 https://gideonwolfe.com/files/GideonWolfeCV.pdf
+
+
+@finance 
+https://github.com/firefly-iii/firefly-iii
