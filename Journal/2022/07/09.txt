@@ -27,3 +27,15 @@ need to use .xprofile here
 bash conditional expressions
 
 [ ] jack_load/jack_unload script -> button
+[ ] power profile script -> button
+
+{{{code: lang="sh" linenumbers="False"
+Set Powersave Profile,echo powersave | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+Set Performance Profile,echo performance | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+
+}}}
+	
+	
+
+
+
