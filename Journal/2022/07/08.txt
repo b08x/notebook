@@ -20,3 +20,4 @@ https://jliljebl.github.io/flowblade/index.html
 
 for vocal eq, cut -18db around ~995Hz (using x42-mono-eq)
 
+vocal -> bandpass
