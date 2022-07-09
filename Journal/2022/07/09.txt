@@ -8,26 +8,23 @@ Creation-Date: 2022-07-09T02:18:57-04:00
 xwininfo - get dimensions of an open window
 
 
-@vim @debate
 
-thinking about switching to gvim over neovim...
-
-
-@i3
-[ ] autotiling
 
 @i3 @x11
 
 when using lightdm with autologin, it calls an Xsession file in /etc/lightdm...
 for some reason, using $HOME/.xession did not execute the commands desired...
-need to use .xprofile here
+need to //use .xprofile here//
 
 @bash
-
 bash conditional expressions
 
+@todo
 [ ] jack_load/jack_unload script -> button
 [ ] power profile script -> button
+
+	@i3
+	[ ] autotiling
 
 {{{code: lang="sh" linenumbers="False"
 Set Powersave Profile,echo powersave | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
@@ -37,11 +34,6 @@ Set Performance Profile,echo performance | sudo tee /sys/devices/system/cpu/cpu*
 	
 
 @lv2
-
-srecord.lv2
-
-lv2_jack_host
-
 Kn0ck0ut-LV2 is an LV2 plugin to perform spectral subtraction.  It can be used 
 to achieve a wide variety of effects, most notably removing or extracting the
 center of a two channel audio file.  As Kn0ck0ut is only a plugin, you will
@@ -57,8 +49,6 @@ VoPaMo - a mono volume plugin controlled via MIDI CC
 
 --------------------
 Omnifono.
-
-
 What is able to do?
 - Amplify the audio input signal, each channel has its own amplifier.
 - Change the panning.
@@ -67,73 +57,22 @@ What is able to do?
 - Noise generation.
 - Stereo field rotation.
 
-
+@reverb @lv2
 https://github.com/igorski/fogpad
+@synths @lv2
 https://github.com/ryukau/LV2Plugins
 
-@visual
-
+@visual @video
 https://github.com/Huluti/Curtail
 https://github.com/flameshot-org/flameshot
 http://qstopmotion.org/
-
-polyphone?
-
-@i3 @layouts
-https://gideonwolfe.com/posts/workflow/i3/layouts/
-
-
-{{{code: lang="sh" linenumbers="False"
-Save and restore the window layout
-From version 4.8, and onward i3 can save and restore workspace layouts. To do this, the following packages are needed: perl-anyevent-i3 and perl-json-xs from the official repositories.
-
-Note: This section only provides a quick tutorial on how to save the current window layout of a single workspace and how to restore it for later use. Refer to the official documentation for more details
-Save the current window layout of a single workspace
-To save the current window layout, follow these steps:
-
-First, execute various commands to open windows in a preferred workspace and resize them if needed. Make sure to write down each executed command for each window.
-Now, in a new workspace, open a terminal and run the following:
-$ i3-save-tree --workspace N > ~/.config/i3/workspace_N.json
-where N is the number of the preferred workspace. This will save the current layout of workspace N to the file ~/.config/i3/workspace_N.json.
-The newly created file needs to be edited. This may be done automatically with the following command:
-$ sed -i 's|^\(\s*\)// "|\1"|g; /^\s*\/\//d' ~/.config/i3/workspace_N.json
-Restore the window layout of the workspace
-There are two ways to restore the layout of the workspace: by writing a script, or by editing ~/.config/i3/config to automatically load the layout. In this section only the first case will be considered, refer to the official documentation for the second case.
-
-To restore the saved layout in the previous section, write a file named load_layout.sh with the following contents:
-
-The starting lines:
-~/load_layout.sh
-#!/bin/sh
-i3-msg "workspace M; append_layout ~/.config/i3/workspace_N.json"
-where M is the number of the workspace in which you would like to load the previously saved layout and N is the number of workspaces saved in the previous section.
-
-And the commands used in the previous section to get the preferred windows, but enclosed in parentheses and with an ampersand appended before the last parentheses.
-For example, if the saved layout contained three uxterm windows:
-
-~/load_layout.sh
-#!/bin/sh
-
-# First we append the saved layout of workspace N to workspace M
-i3-msg "workspace M; append_layout ~/.config/i3/workspace_N.json"
-
-# And finally we fill the containers with the programs they had
-(uxterm &)
-(uxterm &)
-(uxterm &)
-Then set the file as executable. Finally, the layout of workspace N can be loaded onto to workspace M by running:
-
-$ ~/load_layout.sh
-Tip: Adding bindsym $mod+g exec ~/load_layout.sh to ~/.config/i3/config and restarting i3 will bind Mod+g to run the above script.
-Note: If the above script does not work properly, refer to the official documentation. The swallows sections of ~/.config/i3/workspace_N.json needs to be manually edited.
-}}}
-
-
-
-[ ] https://gideonwolfe.com/posts/workflow/i3/picom
-[ ] xmenu! https://gideonwolfe.com/posts/workflow/xmenu/
 
 @media 
 [ ] https://gideonwolfe.com/posts/sysadmin/mediaserver/
 
 
+@resume 
+
+Here's an example:
+
+https://gideonwolfe.com/files/GideonWolfeCV.pdf

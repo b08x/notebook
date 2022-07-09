@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-07-09T18:42:49-04:00
+
+====== ui ======
+Created Saturday 09 July 2022
+
+@gnuplot
+[ ] https://gideonwolfe.com/posts/gnuplot/theming/
+
+
+
+
+@picom @xmenu
+[ ] https://gideonwolfe.com/posts/workflow/i3/picom
+[ ] xmenu! https://gideonwolfe.com/posts/workflow/xmenu/
+
