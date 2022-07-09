@@ -35,10 +35,10 @@ Set Performance Profile,echo performance | sudo tee /sys/devices/system/cpu/cpu*
 
 }}}
 	
-@workflow
 
+@lv2
 
-
+srecord.lv2
 
 
 
