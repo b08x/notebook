@@ -130,4 +130,5 @@ Note: If the above script does not work properly, refer to the official document
 
 
 
-[ ] https://gideonwolfe.com/posts/workflow/i3/picom/
+[ ] https://gideonwolfe.com/posts/workflow/i3/picom
+[ ] xmenu! https://gideonwolfe.com/posts/workflow/xmenu/
