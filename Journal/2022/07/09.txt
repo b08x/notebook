@@ -7,9 +7,6 @@ Creation-Date: 2022-07-09T02:18:57-04:00
 @x11 @ui
 xwininfo - get dimensions of an open window
 
-
-
-
 @i3 @x11
 
 when using lightdm with autologin, it calls an Xsession file in /etc/lightdm...
@@ -21,10 +18,11 @@ bash conditional expressions
 
 @todo
 [ ] jack_load/jack_unload script -> button
-[ ] power profile script -> button
+[ ] power performace (govna') profile script -> button
 
 	@i3
-	[ ] autotiling
+	[>] autotiling
+		[ ] sok, 
 
 {{{code: lang="sh" linenumbers="False"
 Set Powersave Profile,echo powersave | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
@@ -72,7 +70,6 @@ http://qstopmotion.org/
 
 
 @resume 
-
 Here's an example:
 
 https://gideonwolfe.com/files/GideonWolfeCV.pdf
