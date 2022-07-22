@@ -5,11 +5,9 @@ Creation-Date: 2021-09-21T18:05:06-04:00
 ====== Linux ======
 Created Tuesday 21 September 2021
 
-* vlevel - a look-ahead limiter
+https://gentoostudio.org/?page_id=420
 
-```
-vlevel-jack --length 22050 --max-multiplier 20 --strength 0.8 
-```
+
 
 @jconvolver
 https://github.com/wargreen/jc_confgen
@@ -18,3 +16,4 @@ https://github.com/wargreen/jc_confgen
 https://sfzformat.com/
 
 https://media.ccc.de/v/sonoj2019-1904-recording-samples#t=1469
+
