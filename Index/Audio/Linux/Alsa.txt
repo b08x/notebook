@@ -5,6 +5,9 @@ Creation-Date: 2021-07-31T13:49:41-04:00
 ====== Alsa ======
 Created Saturday 31 July 2021
 
+
+https://www.volkerschatz.com/noise/alsa.html
+
 ===== alsactl =====
 https://unix.stackexchange.com/a/317752
 
