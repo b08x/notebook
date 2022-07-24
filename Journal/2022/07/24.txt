@@ -3,10 +3,4 @@ Wiki-Format: zim 0.6
 Creation-Date: 2022-07-24T17:18:02-04:00
 
 ====== Sunday 24 Jul 2022 ======
-bindsym button9 move left
-bindsym button9 move left
-bindsym button9 move left
-bindsym button9 move left
-bindsym button9 move left
-bindsym button9 move left
-bindsym button9 move left
+
