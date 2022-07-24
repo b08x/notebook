@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-07-23T23:08:57-04:00
+
+====== Saturday 23 Jul 2022 ======
+
+@colors
+
+{{./screenshot_2022-07-23-230905.png}}
