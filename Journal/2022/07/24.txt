@@ -4,3 +4,6 @@ Creation-Date: 2022-07-24T17:18:02-04:00
 
 ====== Sunday 24 Jul 2022 ======
 
+@rofi @theme
+https://github.com/Git-Fal7/gtk-rofi
+
