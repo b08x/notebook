@@ -7,3 +7,5 @@ Creation-Date: 2022-07-24T17:18:02-04:00
 @rofi @theme
 https://github.com/Git-Fal7/gtk-rofi
 
+{{./screenshot_2022-07-25-045223.png?width=780}}
+
