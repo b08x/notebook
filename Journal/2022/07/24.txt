@@ -9,3 +9,4 @@ https://github.com/Git-Fal7/gtk-rofi
 
 {{./screenshot_2022-07-25-045223.png?width=780}}
 
+{{./screenshot_2022-07-25-062633.png}}
