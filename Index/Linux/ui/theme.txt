@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-07-27T17:35:47-04:00
+
+====== theme ======
+Created Wednesday 27 July 2022
+
+@i3 @xresources @colors
+https://github.com/dylanaraps/pywal/wiki/Customization#window-managers
