@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-07-27T21:45:55-04:00
+
+====== pi ======
+Created Wednesday 27 July 2022
+
+# use external usb as primary drive
+https://gist.github.com/miketahani/5a5ec6f9a8a547222717b5105166843c
