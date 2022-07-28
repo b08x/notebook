@@ -7,3 +7,4 @@ Created Wednesday 27 July 2022
 
 @i3 @xresources @colors
 https://github.com/dylanaraps/pywal/wiki/Customization#window-managers
+
