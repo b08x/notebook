@@ -8,8 +8,12 @@ Creation-Date: 2022-07-30T04:45:49-04:00
 
 {{./screenshot_2022-07-30-044700.png}}
 
-d8:d3:85:b2:dd:c5
-7c:76:35:0f:03:1b
+d8:d3:85:b2:dd:c5 bender 192.168.41.2
+7c:76:35:0f:03:1b thinkbot 192.168.41.3
+9c:30:5b:d8:0c:1f lapbot 192.168.41.4 
+dc:a6:32:7e:85:1f soundbot01 192.168.41.5
+b8:27:eb:2d:4c:2c soundbot02 192.168.41.6
+48:c7:96:2e:bf:69 magicrectangle 192.168.41.7
 f8:d0:27:3c:20:c8 printerbot 192.168.41.10
 
 
