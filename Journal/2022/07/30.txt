@@ -8,3 +8,16 @@ Creation-Date: 2022-07-30T04:45:49-04:00
 
 {{./screenshot_2022-07-30-044700.png}}
 
+d8:d3:85:b2:dd:c5
+7c:76:35:0f:03:1b
+f8:d0:27:3c:20:c8 printerbot 192.168.41.10
+
+
+
+ptr-record=2.41.168.192-in-addr.arpa,"bender.syncopated.net"
+ptr-record=3.41.168.192-in-addr.arpa,"thinkbot.syncopated.net"
+ptr-record=4.41.168.192-in-addr.arpa,"lapbot.syncopated.net"
+ptr-record=5.41.168.192-in-addr.arpa,"soundbot01.syncopated.net"
+ptr-record=6.41.168.192-in-addr.arpa,"soundbot02.syncopated.net"
+ptr-record=7.41.168.192-in-addr.arpa,"magicrectangle.syncopated.net"
+ptr-record=10.41.168.192-in-addr.arpa,"printerbot.syncopated.net"
