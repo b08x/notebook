@@ -25,14 +25,7 @@ https://gideonwolfe.com/posts/workflow/i3/layouts/
 
 
 ====== Save and restore the window layout ======
-From version 4.8, and onward i3 can save and restore workspace layouts. To do this, the following packages are needed: perl-anyevent-i3 and perl-json-xs from the official repositories.
 
-Note: This section only provides a quick tutorial on how to save the current window layout of a single workspace and how to restore it for later use. Refer to the official documentation for more details
-Save the current window layout of a single workspace
-To save the current window layout, follow these steps:
-
-First, execute various commands to open windows in a preferred workspace and resize them if needed. Make sure to write down each executed command for each window.
-Now, in a new workspace, open a terminal and run the following:
 
 $ i3-save-tree --workspace N > ~/.config/i3/workspace_N.json
 
@@ -42,7 +35,8 @@ The newly created file needs to be edited. This may be done automatically with t
 $ sed -i 's|^\(\s*\)// "|\1"|g; /^\s*\/\//d' ~/.config/i3/workspace_N.json
 
 Restore the window layout of the workspace
-There are two ways to restore the layout of the workspace: by writing a script, or by editing ~/.config/i3/config to automatically load the layout. In this section only the first case will be considered, refer to the official documentation for the second case.
+
+There are two ways to restore the layout of the workspace: by writing a script, or by editing ~/.config/i3/config to automatically load the layout. 
 
 To restore the saved layout in the previous section, write a file named load_layout.sh with the following contents:
 
