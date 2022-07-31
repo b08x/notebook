@@ -4,11 +4,4 @@ Creation-Date: 2022-07-30T19:30:40-04:00
 
 ====== Sunday 31 Jul 2022 ======
 
-b22819
-
-
-head button bg
-#8a1f14
-
-
-texzt
+Soundbot is designed for ~~crime~~ sound production.
