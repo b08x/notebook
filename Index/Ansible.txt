@@ -5,3 +5,15 @@ Creation-Date: 2021-11-09T13:33:59-05:00
 ====== Ansible ======
 Created Tuesday 09 November 2021
 
+An example of setting a variable of args to a command:
+
+{{{code: lang="sh" linenumbers="False"
+packages__reflector_args: >-
+  --latest 200
+  --sort rate
+  --protocol http --protocol https
+  --threads {{ ansible_facts.processor_vcpus }}
+  --save /etc/pacman.d/mirrorlist
+}}}
+
+
